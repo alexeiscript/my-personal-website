@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mdbreact": "^4.8.6",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
+    "react-burger-menu": "^2.5.4",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-hamburger-menu": "^1.1.1",
+    "react-scripts": "2.1.2",
+    "react-text-rotator": "0.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
