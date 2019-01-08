@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactTextRotator from 'react-text-rotator';
 import Burger from './burger.js';
-import { BrowserRouter as Router } from 'react-router-dom';
 import '../sass/style.sass';
 
 class Header extends Component {
@@ -19,14 +18,11 @@ class Header extends Component {
 
                 <ul>
                   <li><a href="#">Home</a></li>
-                  <li><a href="#">About Me</a></li>
+                  <li><a href="#about">About Me</a></li>
                   <li><a href="#">My Projects</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>
               </nav>
-
-
-
             </div>
           </div>
         </div>
