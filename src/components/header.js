@@ -30,6 +30,8 @@ class Header extends Component {
           <div className="welcome-area">
             <div className="header-text text-center">
               <MyComponent />
+            </div>
+            <div className="arrow-container">
               <div className="home-arrow-down">
                 <a href="#about" className="smooth-scroll btn"><i className="fa fa-angle-double-down"></i></a>
               </div>

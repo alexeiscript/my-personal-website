@@ -26,8 +26,42 @@
   display: flex
   text-align: left
 
+@media (max-width: 885px)
+  .about-myself
+    flex-direction: column
+    justify-content: center
+
+  .about-text
+    margin: auto
+    margin-bottom: 40px
+
+  .about-skills
+    margin: auto
+    width: 90%
+
+  .skill-list
+    width: 100%
+
+
 .about-text
   width: 60%
+
+#about-description
+  margin-bottom: 30px
+
+#cv-button
+  color: #08fdd8
+  text-decoration: none
+  background: #252627
+  padding: 10px 20px 15px 20px
+  box-shadow: 0.5rem 0.5rem 1rem 0.3rem rgba(0, 0, 0, 0.2)
+  transition: 0.5s
+
+#cv-button:hover
+  color: #FC0B56
+
+#cv-button:active
+  box-shadow: none
 
 .about-skills
   width: 40%
@@ -42,7 +76,9 @@
   width: 40%
   float: left
   display: inline-block
-  margin-right: 30px
+  margin: 0 30px 10px 0
+
 
 .skill-list i
-  margin-right: 20px
+  margin-right: 10px
+  color: #08fdd8

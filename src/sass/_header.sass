@@ -63,12 +63,49 @@
 
 .header-text
   color: white
+  margin: auto auto 25% auto
 
 #alexei
   letter-spacing: 1px
   font-weight: lighter
 
-
 .classA
   font-size: 4.6em
   font-weight: bold
+
+.arrow-container
+  display: flex
+  justify-content: center
+  height: 15%
+
+.home-arrow-down
+  animation-name: home-arrow-down
+  animation-duration: 3s
+  animation-iteration-count: infinite
+  animation-timing-function: linear
+  transform-style: preserve-3d
+
+.home-arrow-down i
+  color: white
+
+@keyframes home-arrow-down
+  from
+    -webkit-transform: translate3d( 0, 0px, 0)
+    transform: translate3d( 0, 0px, 0)
+    filter: alpha(opacity=0)
+    opacity: 0
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+
+  10%
+    -webkit-transform: translate3d( 0, 5px, 0)
+    transform: translate3d( 0, 5px, 0)
+    filter: alpha(opacity=100)
+    opacity: 1
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+
+  to
+    -webkit-transform: translate3d( 0, 30px, 0)
+    transform: translate3d( 0, 30px, 0)
+    filter: alpha(opacity=0)
+    opacity: 0
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
