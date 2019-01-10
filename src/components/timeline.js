@@ -28,6 +28,25 @@ class TimelineSection extends Component {
               </p>
 
             </TimelineItem>
+
+            <TimelineItem
+              key="002"
+              dateText="Dec 2017 – August 2018"
+              dateInnerStyle={{ background: '#08fdd8', color: '#252627' }}
+              bodyContainerStyle={{
+                background: 'transparent',
+                padding: '20px',
+                borderRadius: '10px',
+                boxShadow:'0.5rem 0.5rem 2rem 1rem rgba(0, 0, 0, 0.2)',
+              }}
+            >
+              <h3 style={{ color: '#08fdd8' }}>Web development (self-learning)</h3><br/>
+              <h5>Online courses and tutorials</h5><br/>
+              <p>
+                After quiting my job as Administration Manager I went online and started to look for answers to the hundreds of questions I had about web development. Then I started to watch videos and tutorials about how websites are built using HTML, CSS & JavaScript. I began practicing what I'd learned parallely. Visited many websites built by great developers / designers, looked at their portfolios (I'm still doing it). After I got a grasp about the fundamentals of web development, I decided to join a bootcamp development course, so I joined the Web Development Professional Programme at Just IT, London.
+              </p>
+            </TimelineItem>
+
             <TimelineItem
               key="002"
               dateText="April 2016 – July 2018"
