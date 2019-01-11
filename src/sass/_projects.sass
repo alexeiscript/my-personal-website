@@ -11,6 +11,10 @@
   text-align: center
   margin:  100px auto
 
+.projects-header h2
+  font-size: 2.5em
+  text-transform: uppercase
+
 .projects-header p
   font-size: 1.2em
 
@@ -85,7 +89,7 @@
   transition: 0.5s
 
 .work:hover .image img
-  opacity: 0.2
+  opacity: 0.1
   transform: scale(1.2)
 
 .work .items
@@ -108,6 +112,7 @@
   transform: translateY(50px)
   opacity: 0
   visibility: hidden
+  padding-bottom: 20px
 
 .work:hover .items h5
   opacity: 1
@@ -128,14 +133,18 @@
   background: #252627
   padding: 5px 10px 8px 10px
   border-radius: 5px
+  position: relative
+  text-transform: uppercase
 
 .work .items a
   transition: 0.5s
-  transform: translateY(-50px)
   opacity: 0
   visibility: hidden
 
 .work:hover .items a
   opacity: 1
   visibility: visible
-  transform: translateY(0px)
+
+#project-button:hover
+  color: black
+  background: #08fdd8

@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import ReactTextRotator from 'react-text-rotator';
 import Burger from './burger.js';
+import { Link, animateScroll as scroll } from "react-scroll";
 import '../sass/style.sass';
 
 class Header extends Component {
   render() {
     return (
-      <div className="Header">
+      <div className="Header" id="header-section">
         <div className="nav-container">
           <div className="container">
             <div className="nav-bar">
               <div className="header-logo">
-                <a href="#">ALEXEI</a>
+                <a><Link to="header-section" smooth={true}>ALEXEI</Link></a>
               </div>
               <Burger/>
               <nav id="navigation">
-
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#about">About Me</a></li>
-                  <li><a href="#">My Projects</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-70}>Home</Link></a></li>
+                  <li><a><Link to="about" smooth={true} activeClass="active" spy={true} offset={-30}>About Me</Link></a></li>
+                  <li><a><Link to="projects-section" smooth={true} activeClass="active" spy={true} offset={-30}>My Projects</Link></a></li>
+                  <li><a><Link to="contact-section" smooth={true} activeClass="active" spy={true} offset={-20}>Contact</Link></a></li>
                 </ul>
               </nav>
             </div>
@@ -33,7 +33,7 @@ class Header extends Component {
             </div>
             <div className="arrow-container">
               <div className="home-arrow-down">
-                <a href="#about" className="smooth-scroll btn"><i className="fa fa-angle-double-down"></i></a>
+                <a className="smooth-scroll btn"><Link to="about" smooth={true}><i className="fa fa-angle-double-down"></i></Link></a>
               </div>
             </div>
           </div>

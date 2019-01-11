@@ -2,7 +2,7 @@
 
 .Header
   height: 100%
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/bgp.jpg")
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("bgp.jpg")
   background-position: top
   background-repeat: no-repeat
   background-attachment: fixed
@@ -33,6 +33,9 @@
   text-decoration: none
   color: #08fdd8
 
+.header-logo a:hover
+  cursor: pointer
+
 #navigation
   margin: 0
   padding: 0
@@ -54,6 +57,10 @@
 
   & ul li a:hover
     color: #FC0B56
+    cursor: pointer
+
+#navigation ul li a .active
+  color: #FC0B56
 
 .welcome-area
   height: 100vh

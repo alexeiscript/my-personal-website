@@ -29,6 +29,7 @@ class Projects extends Component {
                 <div className="items">
                   <h5>Vera Jam Photography</h5>
                   <p>A website I built for a photography artist</p>
+                  <a id="project-button" href="http://alexeistavila.com/verajam/index.html">Visit project</a>
                 </div>
               </div>
               <div className="project3 work">
@@ -37,7 +38,8 @@ class Projects extends Component {
               </div>
               <div className="items">
                   <h5>CryptoSphere</h5>
-                  <p>A website dedicated to cryptocurrency enthusiasts. Work in progress.</p>
+                  <p>A website dedicated to cryptocurrency and blockchain enthusiasts. </p>
+                  <p>Work in progress...</p>
                 </div>
               </div>
             </div>

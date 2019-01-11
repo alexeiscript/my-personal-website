@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 import { slide as Menu } from "react-burger-menu";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default props => {
   return (
