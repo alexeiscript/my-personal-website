@@ -72,6 +72,4 @@ const MyComponent = () => (
   </div>
 );
 
-
-
 export default Header;

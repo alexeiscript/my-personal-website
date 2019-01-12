@@ -6,20 +6,20 @@ export default props => {
   return (
 
     <Menu right {...props}>
-      <a className="menu-item" href="/home">
-        Home
+      <a className="menu-item"><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-70}>
+        Home </ Link>
       </a>
 
-      <a className="menu-item" href="/about">
-        About Me
+      <a className="menu-item" href="/about"><Link to="about" smooth={true} activeClass="active" spy={true} offset={-30}>
+        About Me </ Link>
       </a>
 
-      <a className="menu-item" href="/projects">
-        My Projects
+      <a className="menu-item" href="/projects"><Link to="projects-section" smooth={true} activeClass="active" spy={true} offset={-30}>
+        My Projects </ Link>
       </a>
 
-      <a className="menu-item" href="/contact">
-        Contact
+      <a className="menu-item"><Link to="contact-section" smooth={true} activeClass="active" spy={true} offset={-20}>
+        Contact </ Link>
       </a>
     </Menu>
   );
