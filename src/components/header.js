@@ -17,9 +17,9 @@ class Header extends Component {
               <Burger/>
               <nav id="navigation">
                 <ul>
-                  <li><a><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-70}>Home</Link></a></li>
-                  <li><a><Link to="about" smooth={true} activeClass="active" spy={true} offset={-30}>About Me</Link></a></li>
-                  <li><a><Link to="projects-section" smooth={true} activeClass="active" spy={true} offset={-30}>My Projects</Link></a></li>
+                  <li><a><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-100}>Home</Link></a></li>
+                  <li><a><Link to="about" smooth={true} activeClass="active" spy={true} offset={-55}>About Me</Link></a></li>
+                  <li><a><Link to="projects-section" smooth={true} activeClass="active" spy={true} offset={-55}>My Projects</Link></a></li>
                   <li><a><Link to="contact-section" smooth={true} activeClass="active" spy={true} offset={-20}>Contact</Link></a></li>
                 </ul>
               </nav>
