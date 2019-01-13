@@ -9,7 +9,6 @@ class Projects extends Component {
           <div id="projects-section">
             <div className="projects-header">
               <h2>My Projects</h2>
-              <p>These are my projects so far</p>
             </div>
             <div className="projects-content">
               <div className="project1 work">
