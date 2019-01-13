@@ -11,10 +11,10 @@ class Contact extends Component {
           <div id="contact-section">
             <div className="contact-header">
               <h2>Contact Me</h2>
-              <p>Let's create something awesome together</p>
             </div>
             <div className="contact-content">
               <div className="contact-form children">
+                <p>Let's create something awesome together...</p>
                 <ContactForm />
               </div>
               <div className="google-maps children">
