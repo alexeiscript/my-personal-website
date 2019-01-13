@@ -26,25 +26,6 @@
   display: flex
   text-align: left
 
-@media (max-width: 885px)
-  .about-myself
-    flex-direction: column
-    justify-content: center
-
-  .about-text
-    margin: auto
-    margin-bottom: 40px
-
-  .about-skills
-    margin: auto
-    width: 90%
-
-  .skill-list
-    width: 100%
-
-
-
-
 .about-text
   width: 60%
 
@@ -83,3 +64,50 @@
 .skill-list i
   margin-right: 10px
   color: #08fdd8
+
+
+@media (max-width: 885px)
+  #about-title
+    font-size: 2em
+
+  #about-subtitle
+    font-size: 1em
+
+  #about-introduction
+    font-weight: lighter
+    font-size: 1.5em
+
+  #about-introduction strong
+    font-weight: bold
+
+  .about-text p
+    text-align: justify
+
+
+  .about-myself
+    flex-direction: column
+    justify-content: center
+
+  .about-text
+    margin-bottom: 60px
+    width: 100%
+    text-align: center
+
+  .about-skills
+    width: 100%
+
+  .skill-list
+    width: 100%
+    margin: 0 0 0 14%
+
+
+@media (max-width: 520px)
+  .skill-list
+    margin: 0 0 0 5%
+
+  .skill-list li
+    font-size: 1.2em
+    margin: 0
+
+  .skill-list
+    margin: 0

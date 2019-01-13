@@ -4,7 +4,8 @@ import '../sass/style.sass';
 
 const mapStyles = {
   width: '550px',
-  height: '350px'
+  height: '350px',
+  position: 'relative'
 };
 
 export class MapContainer extends Component {

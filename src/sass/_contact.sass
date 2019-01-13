@@ -16,6 +16,9 @@
   font-size: 2.5em
   text-transform: uppercase
 
+.contact-header p
+  font-size: 1.2em
+
 .contact-content
   display: flex
   justify-content: space-between
@@ -25,3 +28,23 @@
 
 .google-maps
   overflow: hidden
+
+
+@media (max-width: 1040px)
+  .contact-content
+    margin: 0 15px
+
+@media (max-width: 770px)
+  .contact-header h2
+    font-size: 2em
+
+  .contact-header p
+    font-size: 1em
+
+  .contact-content
+    flex-direction: column
+    justify-content: center
+
+  .children
+    width: 90%
+    margin: 0 auto 100px auto
