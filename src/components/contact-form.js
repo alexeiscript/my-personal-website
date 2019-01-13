@@ -8,10 +8,10 @@ class ContactForm extends Component {
         <form method="post" action="https://formspree.io/alexeistavila@hotmail.com">
           <div className="form-div">
             <div class="name-field">
-              <input type="text" name="name" className="styling" id="first-name" placeholder="Name" required="required" />
+              <input type="text" name="name" className="styling" id="first-name" placeholder="Your Name" required="required" />
             </div>
             <div className="email-field">
-              <input type="email" name="email" className="styling" id="email" placeholder="Email" required="required" />
+              <input type="email" name="email" className="styling" id="email" placeholder="Your Email" required="required" />
             </div>
             <div className="message-field">
               <textarea rows="6" name="message" className="styling" id="description" placeholder="Your Message" required="required"></textarea>
