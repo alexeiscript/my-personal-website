@@ -56,7 +56,7 @@ const content = [
     animation: 'fade',
   },
   {
-    text: 'Dreamer',
+    text: 'Learner',
     className: 'classA',
     animation: 'fade',
   },
