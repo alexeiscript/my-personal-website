@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import '../sass/style.sass';
 
-const mapStyles = {
+const style = {
   width: '100%',
   height: '350px',
   position: 'relative',
@@ -37,7 +37,7 @@ export class MapContainer extends Component {
       <Map
         google={this.props.google}
         zoom={14}
-        style={mapStyles}
+        style={style}
         initialCenter={{
          lat: 51.511799,
          lng: 0.062106

@@ -18,7 +18,8 @@ class Contact extends Component {
                 <ContactForm />
               </div>
               <div className="google-maps children">
-                <MapContainer />
+                <MapContainer
+                style="position: relative"/>
               </div>
             </div>
           </div>
