@@ -19,7 +19,7 @@ class Contact extends Component {
               </div>
               <div className="google-maps children">
                 <MapContainer
-                style="position: relative"/>
+                style={{position: "relative"}}/>
               </div>
             </div>
           </div>
