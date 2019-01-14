@@ -13,7 +13,7 @@ class Projects extends Component {
             <div className="projects-content">
               <div className="project1 work">
                 <div className="image">
-                  <img src='../images/1.jpg' />
+                  <img src='../images/1.jpg' alt="JavaScriptQuizz"/>
                 </div>
                 <div className="items">
                   <h5>JavaScript Quiz</h5>
@@ -23,7 +23,7 @@ class Projects extends Component {
               </div>
               <div className="project2 work">
                 <div className="image">
-                  <img src='../images/2.jpg' />
+                  <img src='../images/2.jpg' alt="verajam"/>
                 </div>
                 <div className="items">
                   <h5>Vera Jam Photography</h5>
@@ -33,7 +33,7 @@ class Projects extends Component {
               </div>
               <div className="project3 work">
               <div className="image">
-                <img src='../images/3.jpg' />
+                <img src='../images/3.jpg' alt="CryptoSphere"/>
               </div>
               <div className="items">
                   <h5>CryptoSphere</h5>
