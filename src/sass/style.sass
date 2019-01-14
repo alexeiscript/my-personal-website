@@ -8,7 +8,7 @@
 @import 'contact-form'
 @import 'footer'
 
-body
+html, body
   margin: 0
   padding: 0
   box-sizing: border-box
@@ -18,9 +18,9 @@ body
   text-rendering: optimizeLegibility
   background-color: #252627
 
-
-
 .container
   max-width: 1024px
-  margin: auto auto 0 auto
-  padding: 0
+
+@media (max-width: 1024px)
+  .container
+    padding: 0
