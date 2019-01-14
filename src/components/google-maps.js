@@ -3,7 +3,7 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import '../sass/style.sass';
 
 const mapStyles = {
-  width: '550px',
+  width: '100%',
   height: '350px',
   position: 'relative',
   color: '#1f314f'
