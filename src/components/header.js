@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactTextRotator from 'react-text-rotator';
 import Burger from './burger.js';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import '../sass/style.sass';
 
 class Header extends Component {
@@ -12,9 +12,10 @@ class Header extends Component {
           <div className="container">
             <div className="nav-bar">
               <div className="header-logo">
+
                 <a><Link to="header-section" smooth={true}>ALEXEI</Link></a>
               </div>
-              <Burger/>
+              <Burger />
               <nav id="navigation">
                 <ul>
                   <li><a><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-100}>Home</Link></a></li>
@@ -63,7 +64,7 @@ const content = [
 
 const MyComponent = () => (
   <div>
-    <h2 id="alexei">I'm Alexei Stavila</h2>
+    <h2 id="alexei">I'm Alexei</h2>
     <ReactTextRotator
       content={content}
       time={3000}
