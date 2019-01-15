@@ -20,7 +20,7 @@ class Header extends Component {
                 <ul>
                   <li><a><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-100}>Home</Link></a></li>
                   <li><a><Link to="about" smooth={true} activeClass="active" spy={true} offset={-55}>About Me</Link></a></li>
-                  <li><a><Link to="projects-section" smooth={true} activeClass="active" spy={true} offset={-55}>My Projects</Link></a></li>
+                  <li><a><Link to="projects-section" smooth={true} activeClass="active" spy={true} offset={-25}>My Projects</Link></a></li>
                   <li><a><Link to="contact-section" smooth={true} activeClass="active" spy={true} offset={-20}>Contact</Link></a></li>
                 </ul>
               </nav>

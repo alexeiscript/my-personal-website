@@ -5,8 +5,9 @@ import '../sass/style.sass';
 const style = {
   width: '100%',
   height: '350px',
-  position: 'relative',
-  color: '#1f314f'
+  color: '#1f314f',
+  position: 'relative'
+
 };
 
 export class MapContainer extends Component {
@@ -15,6 +16,8 @@ export class MapContainer extends Component {
     activeMarker: {},          //Shows the active marker upon click
     selectedPlace: {}
   };       //Shows the infoWindow to the selected place upon a marker
+
+  style = {position: 'relative'}
 
   onMarkerClick = (props, marker, e) =>
      this.setState({
