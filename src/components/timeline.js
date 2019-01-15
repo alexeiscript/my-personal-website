@@ -19,7 +19,7 @@ class TimelineSection extends Component {
             >
               <h3 style={{ color: '#08fdd8' }} >Web Development Professional Programme</h3><br/>
               <h5 style={{ color: 'white' }}> Just IT Training & Apprenticeships, London</h5><br/>
-              <p>
+              <p style={{ color: 'white' }}>
                 Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
                 exercitation. Veniam velit adipisicing anim excepteur nostrud magna
                 nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
@@ -41,8 +41,8 @@ class TimelineSection extends Component {
               }}
             >
               <h3 style={{ color: '#08fdd8' }}>Web development (self-learning)</h3><br/>
-              <h5>Online courses and tutorials</h5><br/>
-              <p>
+              <h5 style={{ color: 'white' }}>Online courses and tutorials</h5><br/>
+              <p style={{ color: 'white' }}>
                 After quiting my job as Administration Manager I went online and started to look for answers to the hundreds of questions I had about web development. Then I started to watch videos and tutorials about how websites are built using HTML, CSS & JavaScript. I began practicing what I'd learned parallely. Visited many websites built by great developers / designers, looked at their portfolios (I'm still doing it). After I got a grasp about the fundamentals of web development, I decided to join a bootcamp development course, so I joined the Web Development Professional Programme at Just IT, London.
               </p>
             </TimelineItem>
@@ -59,8 +59,8 @@ class TimelineSection extends Component {
               }}
             >
               <h3 style={{ color: '#08fdd8' }}>Administration Manager</h3><br/>
-              <h5>Doppio Coffee LTD, London</h5><br/>
-              <p>
+              <h5 style={{ color: 'white' }}>Doppio Coffee LTD, London</h5><br/>
+              <p style={{ color: 'white' }}>
                 <ul className="duties">
                   <li><i className="lnr lnr-chevron-right"></i>Managed various projects, such as conducting stock takes, which required me to organize
                   staff in a quick and efficient manner, ensuring accurate inventory counting and updating stock
@@ -91,10 +91,10 @@ class TimelineSection extends Component {
               }}
             >
               <h3 className="degree">Masters Degree in Marketing</h3><br/>
-              <h5 className="university">West University of Timisoara, Romania</h5><br/>
+              <h5 className="university" style={{ color: 'white' }}>West University of Timisoara, Romania</h5><br/>
 
             </TimelineItem>
-            
+
           </Timeline>
     );
   }
