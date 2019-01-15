@@ -7,9 +7,11 @@ class TimelineSection extends Component {
     return (
           <Timeline lineColor={'#08fdd8'}>
             <TimelineItem
-              key="001"
-              dateText="August 2018 – Present"
-              style={{ color: '#08fdd8' }}
+            dateComponent={(
+              <div className="date-component">
+                August 2018 - Present
+              </div>
+            )}
               bodyContainerStyle={{
                 background: 'transparent',
                 padding: '20px',
@@ -31,8 +33,11 @@ class TimelineSection extends Component {
 
             <TimelineItem
               key="002"
-              dateText="Dec 2017 – August 2018"
-              dateInnerStyle={{ background: '#08fdd8', color: '#252627' }}
+              dateComponent={(
+                <div className="date-component">
+                  Dec 2017 - August 2018
+                </div>
+              )}
               bodyContainerStyle={{
                 background: 'transparent',
                 padding: '20px',
@@ -48,9 +53,12 @@ class TimelineSection extends Component {
             </TimelineItem>
 
             <TimelineItem
-              key="002"
-              dateText="April 2016 – July 2018"
-              dateInnerStyle={{ background: '#08fdd8', color: '#252627' }}
+              key="003"
+              dateComponent={(
+                <div className="date-component">
+                  April 2016 - Dec 2017
+                </div>
+              )}
               bodyContainerStyle={{
                 background: 'transparent',
                 padding: '20px',
@@ -77,9 +85,9 @@ class TimelineSection extends Component {
               </p>
             </TimelineItem>
             <TimelineItem
-              key="003"
+              key="004"
               dateComponent={(
-                <div className="masters-date">
+                <div className="date-component">
                   October 2013 - July 2015
                 </div>
               )}
