@@ -20,7 +20,7 @@ class About extends Component {
                 <div className="about-skills">
                   <ul className="skill-list">
                     <li><i className="lnr lnr-chevron-right"></i>HTML5</li>
-                    <li><i className="lnr lnr-chevron-right"></i>Git / GitHub</li>
+                    <li><i className="lnr lnr-chevron-right"></i>Git/GitHub</li>
                     <li><i className="lnr lnr-chevron-right"></i>CSS</li>
                     <li><i className="lnr lnr-chevron-right"></i>ASP.NET</li>
                     <li><i className="lnr lnr-chevron-right"></i>SASS</li>
