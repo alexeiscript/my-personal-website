@@ -22,11 +22,9 @@ class TimelineSection extends Component {
               <h3 style={{ color: '#08fdd8' }} >Web Development Professional Programme</h3><br/>
               <h5 style={{ color: 'white' }}> Just IT Training & Apprenticeships, London</h5><br/>
               <p style={{ color: 'white' }}>
-                Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-                exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-                nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-                reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-                est.
+                During this Programme I improved my HTML5, CSS and JavaScript skills, but also learned C#, SQL and ASP.NET.
+                The learning process during this Web Development Programme was comprised of theoretical study followed by
+                practical case studies where I got to apply what I'd learnt. After taking this couse I feel confident and ready to take on a Frontend Developer role. 
               </p>
 
             </TimelineItem>
