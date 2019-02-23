@@ -36,7 +36,7 @@ class TimelineSection extends Component {
             <TimelineItem
             dateComponent={(
               <div className="date-component">
-                August 2018 - Present
+                August 2018 - January 2019
               </div>
             )}
               bodyContainerStyle={{
