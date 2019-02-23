@@ -37,7 +37,7 @@ class Projects extends Component {
               </div>
               <div className="items">
                   <h5>CryptoSphere</h5>
-                  <p>A website dedicated to cryptocurrency and blockchain enthusiasts. </p>
+                  <p>A website dedicated to blockchain and cryptocurrency enthusiasts</p>
                   <p>Work in progress...</p>
                 </div>
               </div>
