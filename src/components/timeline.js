@@ -6,6 +6,33 @@ class TimelineSection extends Component {
   render() {
     return (
           <Timeline lineColor={'#08fdd8'}>
+
+          <TimelineItem
+          dateComponent={(
+            <div className="date-component">
+              February 2019 - Present
+            </div>
+          )}
+            bodyContainerStyle={{
+              background: 'transparent',
+              padding: '20px',
+              borderRadius: '10px',
+              boxShadow: '0.5rem 0.5rem 2rem 1rem rgba(0, 0, 0, 0.2)',
+            }}
+          >
+            <h3 style={{ color: '#08fdd8' }} >Front-end Developer Intern</h3><br/>
+            <h5 style={{ color: 'white' }}>Design Portfolio, Canary Wharf</h5><br/>
+            <p style={{ color: 'white' }}>
+              <ul className="duties">
+                <li><i className="lnr lnr-chevron-right"></i>This is a 6 week contract position for a Front-end Developer Internship</li>
+                <li><i className="lnr lnr-chevron-right"></i>Editing and building components, templates and plugins using HTML, CSS/SASS/SCSS, JavaScript and PHP</li>
+                <li><i className="lnr lnr-chevron-right"></i>Actively using Git and concrete5 CMS</li>
+                <li><i className="lnr lnr-chevron-right"></i>Using Jira for tracking and project management</li>
+              </ul>
+            </p>
+
+          </TimelineItem>
+
             <TimelineItem
             dateComponent={(
               <div className="date-component">
@@ -24,7 +51,7 @@ class TimelineSection extends Component {
               <p style={{ color: 'white' }}>
                 During this Programme I improved my HTML5, CSS and JavaScript skills, but also learned C#, SQL and ASP.NET.
                 The learning process during this Web Development Programme was comprised of theoretical study followed by
-                practical case studies where I got to apply what I'd learnt. After taking this couse I feel confident and ready to take on a Frontend Developer role. 
+                practical case studies where I got to apply what I'd learnt. After taking this couse I feel confident and ready to take on a Frontend Developer role.
               </p>
 
             </TimelineItem>
