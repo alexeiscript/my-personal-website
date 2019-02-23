@@ -46,7 +46,7 @@ class Header extends Component {
 
 const content = [
   {
-    text: 'Frontend Developer',
+    text: 'Front-end Developer',
     className: 'classA',
     animation: 'fade',
   },
