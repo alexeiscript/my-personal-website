@@ -20,17 +20,21 @@ class TimelineSection extends Component {
               boxShadow: '0.5rem 0.5rem 2rem 1rem rgba(0, 0, 0, 0.2)',
             }}
           >
-            <h3 style={{ color: '#08fdd8' }} >Front-end Developer Intern</h3><br/>
+            <h3 style={{ color: '#08fdd8' }} >Junior Developer</h3><br/>
             <h5 style={{ color: 'white' }}>Design Portfolio, Canary Wharf</h5><br/>
             <p style={{ color: 'white' }}>
               <ul className="duties">
-                <li><i className="lnr lnr-chevron-right"></i>This is a 6 week contract position for a Front-end Developer Internship</li>
-                <li><i className="lnr lnr-chevron-right"></i>Editing and building components, templates and plugins using HTML, CSS/SASS/SCSS, JavaScript and PHP</li>
-                <li><i className="lnr lnr-chevron-right"></i>Actively using Git and concrete5 CMS</li>
-                <li><i className="lnr lnr-chevron-right"></i>Using Jira for tracking and project management</li>
+                <li><i className="lnr lnr-chevron-right"></i>Working in an Agile environment with developers, designers, QA and project managers</li>
+                <li><i className="lnr lnr-chevron-right"></i>Managing day-to-day code updates across a number of our clients' websites</li>
+                <li><i className="lnr lnr-chevron-right"></i>Building and deploying small to mid-level build projects</li>
+                <li><i className="lnr lnr-chevron-right"></i>Debugging and testing code across multiple devices and browsers</li>
+                <li><i className="lnr lnr-chevron-right"></i>Editing and building components, templates and plugins using HTML, SASS, JavaScript and PHP</li>
+                <li><i className="lnr lnr-chevron-right"></i>Actively interacting with Github repositories using MAC OS Terminal</li>
+                <li><i className="lnr lnr-chevron-right"></i>Other techs I'm using: Jira, Concrete5, Sequel PRO and MySQL, 
+                                                              PHP Storm, Bootstrap, Adobe Creative Suite</li>
               </ul>
             </p>
-
+ 
           </TimelineItem>
 
             <TimelineItem
@@ -46,7 +50,7 @@ class TimelineSection extends Component {
                 boxShadow: '0.5rem 0.5rem 2rem 1rem rgba(0, 0, 0, 0.2)',
               }}
             >
-              <h3 style={{ color: '#08fdd8' }} >Web Development Professional Programme</h3><br/>
+              <h3 style={{ color: '#08fdd8' }} >Web Development Programme Bootcamp</h3><br/>
               <h5 style={{ color: 'white' }}> Just IT Training & Apprenticeships, London</h5><br/>
               <p style={{ color: 'white' }}>
                 During this Programme I improved my HTML5, CSS and JavaScript skills, but also learned C#, SQL and ASP.NET.
@@ -73,7 +77,14 @@ class TimelineSection extends Component {
               <h3 style={{ color: '#08fdd8' }}>Web development (self-learning)</h3><br/>
               <h5 style={{ color: 'white' }}>Online courses and tutorials</h5><br/>
               <p style={{ color: 'white' }}>
-                After quiting my job as Administration Manager I went online and started to look for answers to the hundreds of questions I had about web development. Then I started to watch videos and tutorials about how websites are built using HTML, CSS & JavaScript. I began practicing what I'd learned parallely. Visited many websites built by great developers / designers, looked at their portfolios (I'm still doing it). After I got a grasp about the fundamentals of web development, I decided to join a bootcamp development course, so I joined the Web Development Professional Programme at Just IT, London.
+                After quiting my job as Administration Manager I went online and started to look 
+                for answers to the hundreds of questions I had about web development. Then I started to watch 
+                  videos and tutorials about how websites are built using HTML, CSS & JavaScript. 
+                I began practicing what I'd learned parallely. Visited many websites built by great 
+                developers / designers, looked at their portfolios (I'm still doing it). 
+                  After I got a grasp about the fundamentals of web development, I decided to 
+                  join a bootcamp development course, so I joined the Web Development Professional 
+                  Programme at Just IT, London.
               </p>
             </TimelineItem>
 
