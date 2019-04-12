@@ -18,7 +18,7 @@ class Projects extends Component {
                 <div className="items">
                   <h5>JavaScript Quiz</h5>
                   <p>A simple quiz I built using pure JavaScript</p>
-                  <a id="project-button" href="http://alexeistavila.com/JavaScriptQuizz/">Visit project</a>
+                  <a id="project-button" href="http://alexeistavila.com/JavaScriptQuizz/" target="_blank">Visit project</a>
                 </div>
               </div>
               <div className="project2 work">
@@ -28,7 +28,7 @@ class Projects extends Component {
                 <div className="items">
                   <h5>Vera Jam Photography</h5>
                   <p>VeraJam Photography Website</p>
-                  <a id="project-button" href="http://alexeistavila.com/verajam/index.html">Visit project</a>
+                  <a id="project-button" href="http://alexeistavila.com/verajam/index.html" target="_blank">Visit project</a>
                 </div>
               </div>
               <div className="project3 work">
