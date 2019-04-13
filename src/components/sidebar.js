@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 export default props => {
   return (
 
-    <Menu width='60%' right {...props}>
-      <a className="menu-item"><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-70}>
+    <Menu width='80%' right {...props}>
+      <a className="menu-item" href="/"><Link to="header-section" smooth={true} activeClass="active" spy={true} offset={-70}>
         Home </ Link>
       </a>
 
@@ -18,7 +18,7 @@ export default props => {
         My Projects </ Link>
       </a>
 
-      <a className="menu-item"><Link to="contact-section" smooth={true} activeClass="active" spy={true} offset={-20}>
+      <a className="menu-item" href="/contact"><Link to="contact-section" smooth={true} activeClass="active" spy={true} offset={-20}>
         Contact </ Link>
       </a>
     </Menu>
