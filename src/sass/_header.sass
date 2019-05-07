@@ -54,7 +54,7 @@
   & ul li a
     text-decoration: none
     color: #08fdd8
-    transition: 0.5s
+    transition: 0.3s
 
   & ul li a:hover
     color: #FC0B56
@@ -67,15 +67,30 @@
   height: 100vh
   display: flex
   flex-direction: column
-  justify-content: center
+  justify-content: space-around
 
 .header-text
   color: white
-  margin: auto auto 25% auto
+  margin: auto
 
 #alexei
   letter-spacing: 1px
   font-weight: lighter
+
+.social-links 
+  margin: 0 auto 50px auto
+  display: flex 
+  justify-content: space-between
+
+.social-links a 
+  margin: auto
+  padding: 0 20px
+  text-decoration: none
+  transition: 0.3s
+  color: #08fdd8
+
+.social-links a:hover
+  color: #FC0B56
 
 .classA
   font-size: 4.6em
@@ -119,10 +134,3 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
 
 
-@media (max-width: 850px)
-  .header-text
-    margin: auto
-
-@media (max-height: 800px)
-  .header-text
-    margin: auto

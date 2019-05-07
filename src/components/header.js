@@ -32,6 +32,10 @@ class Header extends Component {
             <div className="header-text text-center">
               <MyComponent />
             </div>
+            <div className="social-links">
+                <a href="https://github.com/alexeiscript" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alexei-stavila-874030175" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
             <div className="arrow-container">
               <div className="home-arrow-down">
                 <a className="smooth-scroll btn"><Link to="about" smooth={true}><i className="fa fa-angle-double-down"></i></Link></a>
