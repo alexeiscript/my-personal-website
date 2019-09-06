@@ -33,12 +33,12 @@ class Projects extends Component {
               </div>
               <div className="project3 work">
               <div className="image">
-                <img src='../images/3.jpg' alt="CryptoSphere"/>
+                <img src='../images/3.png' alt="Plant Health Care"/>
               </div>
               <div className="items">
-                  <h5>CryptoSphere</h5>
-                  <p>A website dedicated to blockchain and cryptocurrency enthusiasts</p>
-                  <p>Work in progress...</p>
+                  <h5>Plant Health Care</h5>
+                  <p>A website I build while working with Design Portfolio</p>
+                  <a id="project-button" href="https://ar18.planthealthcare.com/" target="_blank" rel="noopener noreferrer">Visit project</a>
                 </div>
               </div>
             </div>
