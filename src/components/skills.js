@@ -1,10 +1,10 @@
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faJsSquare } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import '../styles/skills.css';
 
 function Skills() {
     
@@ -21,7 +21,7 @@ function Skills() {
             {
                 skills.map((skill) => {
                     return(
-                    <h4 key={skill.id}>{skill.name}<FontAwesomeIcon icon={skill.icon} /></h4>
+                    <h4 key={skill.id}>{skill.name}<FontAwesomeIcon icon={skill.icon} size="lg" className="icons"/></h4>
                     );
                 })
             }

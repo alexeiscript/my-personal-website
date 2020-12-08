@@ -23,7 +23,14 @@ export default function ButtonCV() {
 
   return (
     <div>
-        <ColorButton onClick={() =>  window.open('https://alexei.one', '_blank')} variant="contained" color="primary" className={classes.margin}>
+        <ColorButton 
+          onClick={() =>  
+            window.open('https://alexei.one', '_blank')} 
+          variant="contained" 
+          color="primary" 
+          className={classes.margin}
+          size="large"
+        >
             View CV
         </ColorButton>
     </div>
