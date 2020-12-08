@@ -1,3 +1,5 @@
+import Skills from './skills';
+
 function Home() {
     return(
         <section className="home">
@@ -9,16 +11,16 @@ function Home() {
                     </div>
                     <div>
                         <p>
-                            I'm a junior developer with big plans and ambitions.
-                            Having worked in sectors such as customer service 
-                            and administration, I decided to change careers and
-                            follow my passion for building amazing websites. 
+                            I'm a junior developer with big plans and ambitions.<br/>
+                            Having worked in sectors such as customer service <br/>
+                            and administration, I decided to change careers and<br/>
+                            follow my passion for building amazing websites. <br/>
                             My ultimate goal is to become a full stack developer.
                         </p>
                     </div>
                 </div>
                 <div className="right-side">
-                    
+                    <Skills/>
                 </div>
             </div>
         </section>
