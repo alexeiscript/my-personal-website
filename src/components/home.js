@@ -1,9 +1,11 @@
 import Skills from './skills';
+import ButtonCV from './button';
+import '../styles/home.css';
 
 function Home() {
     return(
         <section className="home">
-            <div>
+            <div className="home-div">
                 <div className="left-side">
                     <div>
                         <h1>Alexei Stavila<br/>Front End Developer</h1>
@@ -20,7 +22,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="right-side">
-                    <Skills/>
+                    <Skills />
+                    <ButtonCV />
                 </div>
             </div>
         </section>
