@@ -1,0 +1,28 @@
+.projects {
+    background: #F5F7FD;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.projects-div {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.projects h1 {
+    color: #1A2B6B;
+    font-size: 3.5em;
+    font-weight: 500;
+    margin: 60px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
