@@ -10,7 +10,7 @@
     background: #ffffff;
     border-radius: 10px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -18,21 +18,21 @@
 
 .home-div-inner {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 80px auto;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
 }
 
-h2 {
+.home-div-inner h2 {
     font-size: 3em;
     font-weight: 500;
-    color: #1A2B6B;
+    color: #3D4556;
     margin: 0;
 }
 
-h1 {
+.home-div-inner h1 {
     font-size: 3.5em;
     font-weight: 500;
     color: #375BD3;
