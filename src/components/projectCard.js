@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    boxShadow: '0 17px 17px -10px rgba(12,22,44,.32)'
   },
   media: {
     height: 140,
@@ -22,7 +23,7 @@ export default function MediaCard(props) {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea onClick={() => window.open(`${props.link}`, '_blank')}>
         <CardMedia
           className={classes.media}
           image={props.image}

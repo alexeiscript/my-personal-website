@@ -9,7 +9,7 @@ const ColorButton = withStyles((theme) => ({
     '&:hover': {
       backgroundColor: '#375BD3',
     },
-    boxShadow: '0 20px 12px -12px rgba(12,22,44,.32)'
+    boxShadow: '0 17px 17px -10px rgba(12,22,44,.32)'
   },
 }))(Button);
 
