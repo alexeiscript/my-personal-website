@@ -1,0 +1,9 @@
+footer {
+    background: #252E42;
+    color: #ffffff;
+    display: flex;
+}
+
+footer div {
+    margin: auto;
+}
