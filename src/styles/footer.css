@@ -2,6 +2,7 @@ footer {
     background: #252E42;
     color: #ffffff;
     display: flex;
+    height: 100px;
 }
 
 footer div {
