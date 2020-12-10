@@ -26,6 +26,13 @@
     row-gap: 20px;
 }
 
+@media (max-width: 975px) {
+    
+    .projects {
+        background: #DFE7FB;
+    }
+}
+
 @media (max-width: 800px) {
     .projects h1 {
         font-size: 2.5em;
@@ -35,5 +42,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media (max-width: 756px) {
+    
+    .grid div {
+        margin-bottom: 30px;
     }
 }

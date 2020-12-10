@@ -12,7 +12,7 @@ function Contact() {
             <div className="contact-div">
                 <div className="left">
                     <h1>Get in touch</h1>
-                    <p>If there's anything you would like to discuss,<br/>
+                    <p>If there's anything you would like to discuss, <br/>
                         please feel free to send me an email</p>
                     <Link color="inherit" underline="none" href="mailto:alexei.stavila@gmail.com">
                         <p id="email"><FontAwesomeIcon icon={faEnvelope} size="lg" className="contactIcons"/> alexei.stavila@gmail.com</p>
