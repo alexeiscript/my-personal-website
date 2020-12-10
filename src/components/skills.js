@@ -17,11 +17,11 @@ function Skills() {
     ];
 
     return(
-        <div>
+        <div className="skills">
             {
                 skills.map((skill) => {
                     return(
-                    <h4 key={skill.id}>{skill.name}<FontAwesomeIcon icon={skill.icon} size="lg" className="icons"/></h4>
+                    <h4 key={skill.id}><span>{skill.name}</span><FontAwesomeIcon icon={skill.icon} size="lg" className="icons"/></h4>
                     );
                 })
             }

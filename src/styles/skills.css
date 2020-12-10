@@ -10,3 +10,27 @@ h4 {
     margin-left: 30px;
     color: #375BD3;
 }
+
+@media (max-width: 975px) {
+    .skills {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .icons {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 370px) {
+    .icons {
+        margin-right: 25px;
+    }
+}

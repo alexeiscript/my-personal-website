@@ -23,7 +23,7 @@ export default function ButtonCV() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className="button">
         <ColorButton 
           onClick={() =>  
             window.open('https://alexei.one', '_blank')} 
