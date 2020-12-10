@@ -15,9 +15,9 @@ function Home() {
                         </div>
                         <div className="left-bottom">
                             <p>
-                                I'm a junior developer with big plans and ambitions.<br/>
+                                I'm a junior developer with big plans and ambitions. <br/>
                                 Having worked in sectors such as customer service <br/>
-                                and administration, I decided to change careers and<br/>
+                                and administration, I decided to change careers and <br/>
                                 follow my passion for building amazing websites. <br/>
                                 My ultimate goal is to become a full stack developer.
                             </p>
