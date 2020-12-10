@@ -13,7 +13,8 @@
     max-width: 1024px;
 }
 
-.contact-div .icons {
+.contact-div .contactIcons {
+    margin-left: 30px;
     color: #ffffff;
 }
 
@@ -29,7 +30,7 @@
     margin-bottom: 0;
 }
 
-.left .icons {
+.left .contactIcons {
     margin-left: 0;
     margin-right: 30px;
 }
@@ -54,4 +55,50 @@
 
 #email {
     margin-top: 50px;
+}
+
+@media (min-width: 851px) {
+    .right .iconsMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 850px) {
+    .contact-div {
+        display: block;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .right .contactIcons {
+        display: none;
+    }
+
+    .right .iconsMobile {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 515px) {
+    .contact p {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 420px) {
+    .contact br {
+        display: none;
+    }
+
+    .left .contactIcons, .iconsMobile {
+        margin-right: 25px;
+    }
 }
