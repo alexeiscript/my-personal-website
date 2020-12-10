@@ -41,6 +41,17 @@
     justify-content: center;
 }
 
+.right p, #email {
+    text-shadow: 10px 17px 17px rgba(12,22,44,.32);
+    transition: .1s;
+}
+
+.right p:hover, #email:hover {
+    color: #DFE7FB;
+    cursor: pointer;
+    text-shadow: 10px 7px 7px rgba(12,22,44,.32);
+}
+
 #email {
     margin-top: 50px;
 }

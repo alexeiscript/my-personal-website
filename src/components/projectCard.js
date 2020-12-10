@@ -42,7 +42,7 @@ export default function MediaCard(props) {
         <Button 
             size="small" 
             color="primary" 
-            onClick={() => window.open(`${props.link}`, '_blank')}
+            onClick={() => window.open(`${props.link}`, '_blank', 'noopener', 'noreferrer')}
         >
             Explore
         </Button>
