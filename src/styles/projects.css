@@ -27,10 +27,13 @@
 }
 
 @media (max-width: 800px) {
+    .projects h1 {
+        font-size: 2.5em;
+    }
+
     .grid {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
 }
