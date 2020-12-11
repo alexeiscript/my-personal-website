@@ -26,7 +26,7 @@ export default function ButtonCV() {
     <div className="button">
         <ColorButton 
           onClick={() =>  
-            window.open('https://alexei.one', '_blank')} 
+            window.open('http://alexei.one/CV-Alexei-Stavila.pdf', '_blank')} 
           variant="contained" 
           color="primary" 
           className={classes.margin}
