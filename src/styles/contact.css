@@ -85,6 +85,10 @@
     .right .iconsMobile {
         margin-right: 35px;
     }
+
+    #gitIcon {
+        margin-right: 33px;
+    }
 }
 
 @media (max-width: 515px) {

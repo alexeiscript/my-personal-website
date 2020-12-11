@@ -21,7 +21,7 @@ function Contact() {
                 <div className="right">
                    
                     <Link underline="none" variant="body1" color="inherit" onClick={() => window.open('https://github.com/alexeiscript', '_blank', 'noopener', 'noreferrer')}>
-                        <p><FontAwesomeIcon icon={faGithub} size="lg" className="iconsMobile"/>My Github profile <FontAwesomeIcon icon={faGithub} size="lg" className="contactIcons"/></p>
+                        <p><FontAwesomeIcon icon={faGithub} size="lg" className="iconsMobile" id="gitIcon"/>My Github profile <FontAwesomeIcon icon={faGithub} size="lg" className="contactIcons"/></p>
                     </Link>
                     <Link underline="none" variant="body1" color="inherit" onClick={() => window.open('https://linkedin.com/in/alexei-stavila', '_blank', 'noopener', 'noreferrer')}>
                         <p><FontAwesomeIcon icon={faLinkedin} size="lg" className="iconsMobile"/>My Linkedin profile <FontAwesomeIcon icon={faLinkedin} size="lg" className="contactIcons"/></p>
