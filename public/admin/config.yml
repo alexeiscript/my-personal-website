@@ -2,12 +2,13 @@ backend:
   name: git-gateway
   branch: develop # Branch to update (optional; defaults to master)
 
-media_folder: "public/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads"
+media_folder: "public/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Page"
+    folder: "content"
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
