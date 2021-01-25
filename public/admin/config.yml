@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: develop # Branch to update (optional; defaults to master)
 
 media_folder: "public/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads"
@@ -13,8 +13,8 @@ collections: # A list of collections the CMS should be able to edit
       preview: true
     files:
       - file: "src/components/home.js"
-        label: "Contact Page"
-        name: "contact-page"
+        label: "Home Page"
+        name: "home-page"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Job Title, name: jobTitle, widget: string}
