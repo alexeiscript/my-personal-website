@@ -26,7 +26,7 @@ export default function ButtonCV() {
     <div className="button">
         <ColorButton 
           onClick={() =>  
-            window.open('https://drive.google.com/file/d/1AbWrg49g_m9VnYFYmntMLNBF85GuVWFk/view?usp=sharing', '_blank')} 
+            window.open('https://drive.google.com/file/d/1XQqx0OlBUX8Lw94Xx7qgMoI0HgDxfoH-/view?usp=sharing', '_blank')} 
           variant="contained" 
           color="primary" 
           className={classes.margin}
